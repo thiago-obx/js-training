@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="index.js"></script>
+    <svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+        <rect width="200" height="100" x="10" y="10" rx="20" ry="20" fill="blue" onclick="addClickEvent('blue', event)" />
+        <rect width="200" height="100" x="290" y="10" rx="20" ry="20" fill="red" onclick="addClickEvent('red', event)"/>
+        <rect width="200" height="100" x="150" y="150" rx="20" ry="20" fill="green" onclick="addClickEvent('green', event)"/>
+    </svg>
+    <button onclick="removeClickEvent()">Remove Callback</button>
+    <button onclick="removeClickEventWithPrefix()">Remove Callback With Prefix</button>
+</body>
+</html>

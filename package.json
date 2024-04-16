@@ -1,0 +1,22 @@
+{
+  "name": "js-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiago-obx/js-training.git"
+  },
+  "author": "Thiago Almeida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiago-obx/js-training/issues"
+  },
+  "homepage": "https://github.com/thiago-obx/js-training#readme",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
